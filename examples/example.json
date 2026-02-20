@@ -1,0 +1,18 @@
+{
+    "About me..." : {
+        "BIO" : {
+            "Education" : [
+                "Undergraduate student in Computer Science in Federal University of Amazonas",
+                "IT technician in Federal Institute of Amazonas"
+            ],
+            "Experience (XP)" : ["IT internship in Federal Institute of Amazonas"],
+            "Competitive programming contestant": {
+                    "Brazilian Informatics Olympiad": [2021,2022,2023],
+                    "SBC Programming Marathon": [2024],
+                    "IFAM Medalist in Programming - Internal Competition": [2022]
+                }
+        },
+        "Language": ["Portuguese (pt-br) Native", "Spanish Technical", "English Technical"],
+        "Programming Languages" : ["C", "Java", "SQL", "Python", "PHP", "JavaScript", "Kotlin"]
+    }
+}
