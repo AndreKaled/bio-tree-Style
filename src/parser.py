@@ -5,7 +5,7 @@ from typing import Any
 def parser_json(data_file) -> Node:
     with open(data_file, "r") as f:
         data = json.load(f)
-    return build_node("root", data)
+    return build_node("", data)
         
 
 # fun fact: isso e complexidade o(n)
@@ -20,7 +20,7 @@ def build_node(name: str, data: Any):
     elif isinstance(data, list):
         node = Node(name)
         for i, item in enumerate(data):
-            child = build_node(f"{name}_{i}", item)
+            child = build_node(f"{data[i]}", item)
             node.children.append(child)
         return node
     
